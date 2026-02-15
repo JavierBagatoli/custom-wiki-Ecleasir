@@ -1,0 +1,42 @@
+main{
+    background-color: rgb(167, 167, 167);
+}
+
+table{
+    border: solid rgb(195, 186, 186) 0.3rem;
+    border-collapse: collapse; /* Merge borders into single lines */
+    background-color: rgb(224, 225, 225);
+}
+
+th{
+    min-width: 6rem;
+}
+td:not(.text){
+    text-align: center;
+}
+
+tr:nth-child(2n){
+    background-color: rgb(194, 196, 198);
+}
+
+th,td{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-left: none;
+    border-right: none;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+main{
+    padding:2rem
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
